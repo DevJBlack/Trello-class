@@ -3,7 +3,7 @@ import '../sass/App.scss'
 
 const App = () => {
   return (
-    <div>Hello World</div>
+    <div >Hello World</div>
   )
 }
 
