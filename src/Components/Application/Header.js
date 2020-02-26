@@ -1,6 +1,6 @@
 import React from 'react'
 import logo1 from '../img/logo.png'
-import {ReactComponent as Sprit1} from '../img/SVG/magnifying-glass.svg'
+import { ReactComponent as Sprit1 } from '../img/SVG/magnifying-glass.svg'
 import { ReactComponent as BookMark } from '../img/SVG/bookmark.svg'
 import { ReactComponent as Chat } from '../img/SVG/chat.svg'
 import user from '../img/user.jpg'
@@ -20,13 +20,13 @@ const Header = () => {
       </form>
 
       <nav className="user-nav">
-        <div className="user-nav__nav__box">
+        <div className="user-nav__icon-box">
           <svg className="user-nav__icon">
             <BookMark />
           </svg>
           <span className="user-nav__notification">7</span>
         </div>
-        <div className="user-nav__nav__box">
+        <div className="user-nav__icon-box">
           <svg className="user-nav__icon">
             <Chat />
           </svg>
