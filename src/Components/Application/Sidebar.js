@@ -41,6 +41,10 @@ const Sidebar = () => {
           </a>
         </li>
       </ul>
+
+      <div className="legal">
+        &copy; 2020 by Trillo. All rights reserved.
+      </div>
     </nav>
   )
 }
