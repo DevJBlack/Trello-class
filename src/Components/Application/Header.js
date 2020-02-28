@@ -3,7 +3,7 @@ import logo1 from '../img/logo.png'
 import { ReactComponent as Sprit1 } from '../img/SVG/magnifying-glass.svg'
 import { ReactComponent as BookMark } from '../img/SVG/bookmark.svg'
 import { ReactComponent as Chat } from '../img/SVG/chat.svg'
-import user from '../img/user.jpg'
+import user from '../img/devin-img-square.jpg'
 
 const Header = () => {
   return (
@@ -34,7 +34,7 @@ const Header = () => {
         </div>
         <div className="user-nav__user">
           <img src={user} alt="User" className="user-nav__user-photo"/>
-          <span className="user-nav__user-name">Jonas</span>
+          <span className="user-nav__user-name">Devin</span>
         </div>
       </nav>
     </header>
