@@ -8,7 +8,7 @@ const Sidebar = () => {
   return (
     <nav className="sidebar">
       <ul className="side-nav">
-        <li className="side-nave__item">
+        <li className="side-nav__item">
           <a href="http://localhost:3000" className="side-nav__link">
             <svg className="side-nav__icon">
               <Home />
@@ -16,7 +16,7 @@ const Sidebar = () => {
             <span>Hotel</span>
           </a>
         </li>
-        <li className="side-nave__item">
+        <li className="side-nav__item">
           <a href="http://localhost:3000" className="side-nav__link">
             <svg className="side-nav__icon">
               <AirCraft />
@@ -24,7 +24,7 @@ const Sidebar = () => {
             <span>Flight</span>
           </a>
         </li>
-        <li className="side-nave__item">
+        <li className="side-nav__item">
           <a href="http://localhost:3000" className="side-nav__link">
             <svg className="side-nav__icon">
               <Rental />
@@ -32,7 +32,7 @@ const Sidebar = () => {
             <span>Car Rental</span>
           </a>
         </li>
-        <li className="side-nave__item">
+        <li className="side-nav__item">
           <a href="http://localhost:3000" className="side-nav__link">
             <svg className="side-nav__icon">
               <Tours />
