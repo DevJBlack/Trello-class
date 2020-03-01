@@ -8,7 +8,7 @@ const Sidebar = () => {
   return (
     <nav className="sidebar">
       <ul className="side-nav">
-        <li className="side-nav__item">
+        <li className="side-nav__item side-nav__item--active">
           <a href="http://localhost:3000" className="side-nav__link">
             <svg className="side-nav__icon">
               <Home />
