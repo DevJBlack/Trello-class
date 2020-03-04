@@ -8,6 +8,7 @@ import user3 from '../img/user-3.jpg'
 import user4 from '../img/user-4.jpg'
 import user5 from '../img/user-5.jpg'
 import user6 from '../img/user-6.jpg'
+import devin1 from '../img/devin-img-square.jpg'
 
 const HotelView = () => {
   return (
@@ -91,7 +92,35 @@ const HotelView = () => {
         </div>
 
         <div className="user-reviews">
-          user reviews
+          <figure className="review">
+            <blockquote className="review__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+            </blockquote>
+            <figcaption className="review__user">
+              <img src={devin1} alt="user one" className="review__photo"/>
+              <div className="review__user-box">
+                <p className="review__user-name">Nick Smith</p>
+                <p className="review__user-date">Feb 23rd 2020</p>
+              </div>
+              <div className="review__rating">7.8</div>
+            </figcaption>
+          </figure>
+
+          <figure className="review">
+            <blockquote className="review__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi.
+            </blockquote>
+            <figcaption className="review__user">
+              <img src={user6} alt="user not devin" className="review__photo"/>
+              <div className="review__user-box">
+                <p className="review__user-name">Mary Thomas</p>
+                <p className="review__user-date">Sept 13rd 2020</p>
+              </div>
+              <div className="review__rating">9.3</div>
+            </figcaption>
+          </figure>
+
+          <button className="btn-inline">Show all <span>&rarr;</span></button>
         </div>
       </div>
 
