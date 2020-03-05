@@ -8,7 +8,7 @@ import user3 from '../img/user-3.jpg'
 import user4 from '../img/user-4.jpg'
 import user5 from '../img/user-5.jpg'
 import user6 from '../img/user-6.jpg'
-import devin1 from '../img/devin-img-square.jpg'
+import user1 from '../img/user-1.jpg'
 
 const HotelView = () => {
   return (
@@ -97,7 +97,7 @@ const HotelView = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
             </blockquote>
             <figcaption className="review__user">
-              <img src={devin1} alt="user one" className="review__photo"/>
+              <img src={user1} alt="user one" className="review__photo"/>
               <div className="review__user-box">
                 <p className="review__user-name">Nick Smith</p>
                 <p className="review__user-date">Feb 23rd 2020</p>
@@ -123,16 +123,16 @@ const HotelView = () => {
           <button className="btn-inline">Show all <span>&rarr;</span></button>
         </div>
 
-        <div className="cta">
-          <h2 className="cta__book-now">
-            Good news! We have 4 free rooms for your selected dates!
-          </h2>
-          <button className="btn">
-            <span className="btn__visible">Book Now</span>
-            <span className="btn__invisible">Only 4 rooms left</span>
-          </button>
-        </div>
 
+      </div>
+      <div className="cta">
+        <h2 className="cta__book-now">
+          Good news! We have 4 free rooms for your selected dates!
+        </h2>
+        <button className="btn">
+          <span className="btn__visible">Book Now</span>
+          <span className="btn__invisible">Only 4 rooms left</span>
+        </button>
       </div>
 
     </main>
