@@ -16,7 +16,13 @@
   --shadow-light: 0 2rem 5rem rgba(0,0,0, .06);
 
   --line: 1px solid var(--color-grey-light-2);
+
+
 }
+// 1200px/16px = 75em.  
+$bp-largest: 75em;
+$bp-large: 68.75em; //1100px /16 = 68.75
+$bp-medium: 56.25em; //900/16. 900 is the width we choose
 
 * {
   margin: 0;
@@ -32,6 +38,10 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
 }
 
 body {
