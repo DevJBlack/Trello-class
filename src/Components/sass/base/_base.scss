@@ -23,6 +23,9 @@
 $bp-largest: 75em;
 $bp-large: 68.75em; //1100px /16 = 68.75
 $bp-medium: 56.25em; //900/16. 900 is the width we choose
+$bp-small: 37.5em; //600/16
+$bp-smallest: 31.25em; //500/16
+
 
 * {
   margin: 0;
